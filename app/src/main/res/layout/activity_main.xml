@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txt_Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#673AB7"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="TUBERCULOSE"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_Oq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:text="O que é?"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_Sintomas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:text="Sintomas"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_Transmisao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:text="Trasmissão"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_Diagnostico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:text="Diagnostico"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bnt_Tratamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:text="Tratamento"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bnt_Sobre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:text="Sobre"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
